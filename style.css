@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    background-image: radial-gradient(circle at 30% 20%, #00ffe7 1px, transparent 1px),
+                      radial-gradient(circle at 70% 80%, #00ffe7 1px, transparent 1px);
+    background-size: 4px 4px;
+}
+
+.container {
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #00ffe7;
+    text-shadow: 0 0 15px #00ffe7;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #dddddd;
+}
+
+.email-form input {
+    padding: 12px;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    width: 280px;
+}
+
+.email-form button {
+    padding: 12px 20px;
+    font-size: 1em;
+    background-color: #00ffe7;
+    border: none;
+    border-radius: 6px;
+    color: #0a0a0a;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 12px #00ffe7;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: #aaaaaa;
+}
